@@ -3,5 +3,97 @@
     width: 100%;
     margin: 0 auto;
     background-color: antiquewhite;
-    padding: 20%;
+    padding: 10%;
+}
+
+body {
+    font-family: 'arial' !important;
+    line-height: 1.5em;
+}
+.buttons {
+    display: block;
+   
+    margin-top: 4%;
+}
+.menu {
+    display: block;
+    height: 60px;
+    width: 34%;
+    
+
+}
+button#main {
+    background-color: #0eaa00;
+    border: 0px;
+    padding: 2%;
+    font-size: 30px;
+    display: block;
+    height: 55px;
+    width: 58px;
+    color: #fff;
+    cursor: pointer;
+    }
+
+#sub_div {
+    display: none;
+    background-color: #8cd1b9;
+    padding: 1%;
+    width: 18%;
+}
+#sub_div ul  {
+
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+#sub_div ul li {
+    list-style: none;
+}
+#sub_div ul li a {
+    
+    text-decoration: none; 
+    color: #000;
+    padding: 2%;
+    width: 150px;
+    display: block;
+}
+#sub_div ul li a:hover {
+   
+    background-color: #000;
+    color: #fff;
+}
+#showall{
+    background: #63aa04;
+    padding: 2%;
+    color: #fff;
+    cursor: pointer;
+}
+a.showSingle {
+    background: #63aa04;
+    padding: 2%;
+    color: #fff;
+    cursor: pointer;
+}
+.targetDiv {
+    background-color: #469b34;
+    color: #fff;
+    padding: 2%;
+    box-sizing: border-box;
+    margin-top: 2%;
+}
+#div2 {
+    display: none;    
+}
+#div3 {
+    display: none;    
+}
+#div4 {
+    display: none;    
+}
+#div5 {
+    display: none;    
+}
+
+.active {
+    background-color:#e6750c;
 }
